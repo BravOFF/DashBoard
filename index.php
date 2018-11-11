@@ -7,61 +7,61 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/dashboard'.'/template/header.php';
 <div class="container" style="padding-top: 14px; margin-top: 15px;">
     <!-- Content here -->
     <div class="row">
-        <div class="col-md-6">
-            <div class="container-fluid" style="background-color: #e3effd; border: 1px solid #e3effd; height: 100%;">
-                <div class="row" style="height: 100%;">
-                    <div class="col-md-5">
-                        <p style="font-size: 1.5rem;">Госзакупки</p>
-                        <p class="mb-0" style="font-size: 3rem; line-height: 1;">152 173,87</p>
-                        <p><em>млн. руб.</em></p>
-                        <p class="mb-0" style="font-size: 3rem; line-height: 1;">88 938</p>
-                        <p><em>Закупки</em></p>
+        <div class="col-md-5  col-sm-12">
+            <div class="container-fluid gos-info-1">
+                <div class="row">
+                    <div class="col-sm-5 left-block">
+                        <p class="text">Госзакупки</p>
+                        <p class="mb-0 num">152 173,87</p>
+                        <p class="text"><em>млн. руб.</em></p>
+                        <p class="mb-0 num">88 938</p>
+                        <p class="text"><em>Закупки</em></p>
                     </div>
-                    <div class="col-md-7" style="background-color: #ffffff;">
+                    <div class="col-sm-7 right-block">
                         <div class="row">
-                            <div class="col-7" style="padding: 10px;">
-                                <p style="line-height: 1;font-size: 1.4rem;font-weight: 600;">Зазмещено закупок<br>
-                                    <small style="color: #6c757d;font-size: 1rem;"><em>млн. руб.| %</em></small>
+                            <div class="col-7 block-current">
+                                <p>Размещено закупок<br>
+                                    <small><em>млн. руб.| %</em></small>
                                 </p>
                             </div>
-                            <div class="col-5" style="padding: 10px;">
-                                <div style="width: 100%; background-color: #ffffff; border: 1px solid #007bff; height: 1.2rem; margin-top: 5px; margin-bottom: 5px; border-radius: 2px;">
-                                    <div style="width: 87.1%; height: 100%; background-color: #007bff"></div>
+                            <div class="col-5 block-current-line">
+                                <div class="block-line">
+                                    <div style="width: 87.1%;"></div>
                                 </div>
                                 <div>
-                                    <p style="color: #007bff;">123 471,70 | 87,1%</p>
+                                    <p>123 471,70 | 87,1%</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-7" style="padding: 10px;">
-                                <p style="line-height: 1;font-size: 1.4rem;font-weight: 600;">Экономия<br>
-                                    <small style="color: #6c757d;font-size: 1rem;"><em>млн. руб.| %</em></small>
+                            <div class="col-7 block-current">
+                                <p>Экономия<br>
+                                    <small><em>млн. руб.| %</em></small>
                                 </p>
                             </div>
-                            <div class="col-5" style="padding: 10px;">
-                                <div style="width: 100%; background-color: #ffffff; border: 1px solid #007bff; height: 1.2rem; margin-top: 5px; margin-bottom: 5px; border-radius: 2px;">
-                                    <div style="width: 33.9%; height: 100%; background-color: #007bff"></div>
+                            <div class="col-5 block-current-line">
+                                <div class="block-line">
+                                    <div style="width: 33.9%;"></div>
                                 </div>
                                 <div>
-                                    <p style="color: #007bff;">49 591,12 | 33,9%</p>
+                                    <p>49 591,12 | 33,9%</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-7" style="padding: 10px;">
-                                <p style="line-height: 1;font-size: 1.4rem;font-weight: 600;">Заключено контрактов<br>
-                                    <small style="color: #6c757d;font-size: 1rem;"><em>млн. руб.| %</em></small>
+                            <div class="col-7 block-current">
+                                <p>Заключено контрактов<br>
+                                    <small><em>млн. руб.| %</em></small>
                                 </p>
                             </div>
-                            <div class="col-5" style="padding: 10px;">
-                                <div style="width: 100%; background-color: #ffffff; border: 1px solid #007bff; height: 1.2rem; margin-top: 5px; margin-bottom: 5px; border-radius: 2px;">
-                                    <div style="width: 73%; height: 100%; background-color: #007bff"></div>
+                            <div class="col-5 block-current-line">
+                                <div class="block-line">
+                                    <div style="width: 73%;"></div>
                                 </div>
                                 <div>
-                                    <p style="color: #007bff;">106 682,57 | 73,0%</p>
+                                    <p>106 682,57 | 73,0%</p>
                                 </div>
                             </div>
                         </div>
@@ -70,75 +70,76 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/dashboard'.'/template/header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
-            <div class="container-fluid"
-                 style="background-color: #e3effd; border: 1px solid #e3effd; height: 100%;display: flex;flex-direction: column;">
-                <p style="font-size: 1.4rem;">Госзакупки</p>
-                <p class="mb-0" style="font-size: 2.5rem; line-height: 1;">139 397,65</p>
-                <p><em>млн. руб.</em></p>
-                <div style="background-color: #ffffff; padding: 7px; margin-left: -7px; margin-right: -7px; margin-top: auto;">
-                    <p style="line-height: 1;font-size: 1.4rem;font-weight: 600;">Исполнено<br>
-                        <small style="color: #6c757d;font-size: 1rem;"><em>млн. руб.| %</em></small>
+        <div class="col-md-7 col-sm-12">
+            <div class="row">
+        <div class="col-sm-4">
+            <div class="container-fluid gos-info-2">
+                <p class="title">Госзакупки</p>
+                <p class="mb-0 num">139 397,65</p>
+                <p class="small-text"><em>млн. руб.</em></p>
+                <div class="block-current">
+                    <p>Исполнено<br>
+                        <small><em>млн. руб.| %</em></small>
                     </p>
-                    <div>
-                        <div style="width: 100%; background-color: #ffffff; border: 1px solid #007bff; height: 1.2rem; margin-top: 5px; margin-bottom: 5px; border-radius: 2px;">
-                            <div style="width: 27.1%; height: 100%; background-color: #007bff"></div>
+                    <div class="block-current-line">
+                        <div class="block-line">
+                            <div style="width: 27.1%;"></div>
                         </div>
                         <div>
-                            <p style="color: #007bff;">37 766,82 | 27,1%</p>
+                            <p>37 766,82 | 27,1%</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
-            <div class="container-fluid"
-                 style="background-color: #e3effd; border: 1px solid #e3effd; height: 100%; display: flex;flex-direction: column;">
-                <p style="font-size: 1.4rem;">Субсидии</p>
-                <p class="mb-0" style="font-size: 2.5rem; line-height: 1;">164 366,75</p>
-                <p><em>млн. руб.</em></p>
-                <div style="background-color: #ffffff; padding: 7px; margin-left: -7px; margin-right: -7px; margin-top: auto;">
-                    <p style="line-height: 1;font-size: 1.4rem;font-weight: 600;">Исполнено<br>
-                        <small style="color: #6c757d;font-size: 1rem;"><em>млн. руб.| %</em></small>
+        <div class="col-sm-4">
+            <div class="container-fluid gos-info-2">
+                <p class="title">Субсидии</p>
+                <p class="mb-0 num">164 366,75</p>
+                <p class="small-text"><em>млн. руб.</em></p>
+                <div class="block-current">
+                    <p>Исполнено<br>
+                        <small><em>млн. руб.| %</em></small>
                     </p>
-                    <div>
-                        <div style="width: 100%; background-color: #ffffff; border: 1px solid #007bff; height: 1.2rem; margin-top: 5px; margin-bottom: 5px; border-radius: 2px;">
-                            <div style="width: 52.1%; height: 100%; background-color: #007bff"></div>
+                    <div class="block-current-line">
+                        <div class="block-line">
+                            <div style="width: 52.1%;"></div>
                         </div>
                         <div>
-                            <p style="color: #007bff;">85 628,66 | 52,1%</p>
+                            <p>85 628,66 | 52,1%</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
-            <div class="container-fluid"
-                 style="background-color: #e3effd; border: 1px solid #e3effd; height: 100%; display: flex;flex-direction: column;">
-                <p style="font-size: 1.4rem;">Прочие обязательства</p>
-                <p class="mb-0" style="font-size: 2.5rem; line-height: 1;">243 174,36</p>
-                <p><em>млн. руб.</em></p>
-                <div style="background-color: #ffffff; padding: 7px; margin-left: -7px; margin-right: -7px; margin-top: auto;">
-                    <p style="line-height: 1;font-size: 1.4rem;font-weight: 600;">Исполнено<br>
-                        <small style="color: #6c757d;font-size: 1rem;"><em>млн. руб.| %</em></small>
+        <div class="col-sm-4">
+            <div class="container-fluid gos-info-2">
+                <p class="title">Прочие обязательства</p>
+                <p class="mb-0 num">243 174,36</p>
+                <p class="small-text"><em>млн. руб.</em></p>
+                <div class="block-current">
+                    <p>Исполнено<br>
+                        <small><em>млн. руб.| %</em></small>
                     </p>
-                    <div>
-                        <div style="width: 100%; background-color: #ffffff; border: 1px solid #007bff; height: 1.2rem; margin-top: 5px; margin-bottom: 5px; border-radius: 2px;">
-                            <div style="width: 56%; height: 100%; background-color: #007bff"></div>
+                    <div class="block-current-line">
+                        <div class="block-line">
+                            <div style="width: 56%;"></div>
                         </div>
                         <div>
-                            <p style="color: #007bff;">136 286,14 | 56,0%</p>
+                            <p>136 286,14 | 56,0%</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
 
 
 
-    <div class="row mt-3" style="height: 100%;">
-        <div class="col-9">
+    <div class="row events-block" style="height: 100%;">
+        <div class="col-lg-9 col-md-8 col-sm-12">
             <div style="background-color: #fff; height: 100%; border: 1px solid #e3effd;">
                 <div class="datepaginator" id="paginator" style="">
                 </div>
@@ -381,7 +382,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/dashboard'.'/template/header.php';
 
             </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-4 col-sm-12">
             <div style="background-color: #fff; height: 100%; border: 1px solid #e3effd;">
 
                 <div style="padding: 7px; border: 1px solid #e3effd;">

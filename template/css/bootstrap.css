@@ -587,7 +587,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1014px;
+    max-width: 1150px;
   }
 }
 
@@ -609,9 +609,15 @@ pre code {
   }
 }
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1550px;
+  }
+}
+
 @media (min-width: 1920px) {
   .container {
-    max-width: 1596px;
+    max-width: 1800px;
   }
 }
 
