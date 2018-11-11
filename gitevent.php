@@ -15,7 +15,7 @@ $json = json_decode($source, true);
 $text = serialize($json);
 
 $currentEl .= $source;
-$currentEl .= '
+$currentEl .= ',
 ';
 
 file_put_contents($filename, $currentEl);
