@@ -14,7 +14,7 @@ $source = file_get_contents('php://input');
 $json = json_decode($source, true);
 $text = serialize($json);
 
-$currentEl .= $text;
+$currentEl .= $source;
 $currentEl .= '
 ';
 
