@@ -10,10 +10,10 @@ $filename = 'gitevent.txt';
 
 $currentEl = file_get_contents($filename);
 
-$json = json_decode($_REQUEST, true);
+//$json = json_decode($_REQUEST, true);
 
 
-$currentEl .= $json;
+$currentEl .= print_r($_REQUEST);
 $currentEl .= '
 ';
 
