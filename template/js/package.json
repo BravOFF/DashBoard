@@ -1,0 +1,7 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "popper.js": "^1.14.4"
+  }
+}
