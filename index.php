@@ -1,6 +1,9 @@
 
 <?
 require_once $_SERVER['DOCUMENT_ROOT'].'/dashboard'.'/template/header.php';
+
+$Rating = include $_SERVER['DOCUMENT_ROOT'].'/dashboard'.'/rating/GetRating.php';
+//pr($Rating);
 ?>
 
 
@@ -388,11 +391,16 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/dashboard'.'/template/header.php';
                 <div style="padding: 7px; border: 1px solid #e3effd;">
                     <p style="text-align: center;  line-height: 1; font-size: 1.4rem; font-weight: 600;">Рейтинг заместителей</p>
                     <ul class="list-group list-group-flush" style="list-style-type: decimal; list-style-position: inside;">
-                        <li class="list-group-item" style="display: list-item; border-top: 0;">Cras justo odio</li>
-                        <li class="list-group-item" style="display: list-item;">Dapibus ac facilisis in</li>
-                        <li class="list-group-item" style="display: list-item;">Morbi leo risus</li>
-                        <li class="list-group-item" style="display: list-item;">Porta ac consectetur ac</li>
-                        <li class="list-group-item" style="display: list-item;">Vestibulum at eros</li>
+
+	                    <? foreach ($Rating as $k => $v): ?>
+		                    <li class="list-group-item" style="display: list-item;<? if($k == 1):?> border-top: 0;<? endif; ?>"><?=$v;?></li>
+	                    <? endforeach; ?>
+
+<!--                        <li class="list-group-item" style="display: list-item; border-top: 0;">Cras justo odio</li>-->
+<!--                        <li class="list-group-item" style="display: list-item;">Dapibus ac facilisis in</li>-->
+<!--                        <li class="list-group-item" style="display: list-item;">Morbi leo risus</li>-->
+<!--                        <li class="list-group-item" style="display: list-item;">Porta ac consectetur ac</li>-->
+<!--                        <li class="list-group-item" style="display: list-item;">Vestibulum at eros</li>-->
                     </ul>
                 </div>
 
