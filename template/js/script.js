@@ -1,5 +1,6 @@
 $(function () {
 
+	$.get("/vendor/compos-ajax.php");
     // $('body').css('background', 'url(img/bg.jpg) no-repeat');
     // $('body').css('background-size', 'cover');
     // $('body').css('background-attachment', 'fixed');
